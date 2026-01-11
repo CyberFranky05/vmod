@@ -20,5 +20,8 @@ def main():
     else:
         server_ip = input("Enter servers ip")
         client_server(server_ip)
+
+if __name__ == "__main__":
+    main()
     
 
