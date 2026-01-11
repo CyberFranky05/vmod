@@ -1,3 +1,4 @@
+from connection import get_ip_address , primary_server , client_server
 
 
 def main():
@@ -10,7 +11,7 @@ def main():
     '''
 
 
-    print(f"{ get_ip_address()} -> user IP address")
+    print(f"{ get_ip_address("wlan0")} -> user IP address")
     print("Welcome to vmode \n Press 1 if you are server \n Press 2 if you are client")
     user_input = int(input("Enter your resoponse here"))
 
